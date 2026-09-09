@@ -2,7 +2,7 @@ name: basic GHA pipeline
 
 on:
   push:
-    branch: ["main"]
+    branch: ["master"]
 	
 jobs:
   basic:
