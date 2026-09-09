@@ -2,11 +2,11 @@ name: basic GHA pipeline
 
 on:
   push:
-    branch: ["master"]
-	
+    branches: ["master"]
+
 jobs:
   basic:
     runs-on: ["self-hosted"]
     steps:
-	  name: print a statement
-	  run: echo "basic GHA pipeline successfull"
+      - name: print a statement
+        run: echo "basic GHA pipeline successfully"
